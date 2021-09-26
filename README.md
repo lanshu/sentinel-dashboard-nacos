@@ -17,7 +17,8 @@ master分支： `1.8.2`
 - [X] 授权规则(列表刷新同步有问题)
 - [ ] 集群流控
 
-# 使用说明
+# 项目截图
+![簇点链路](./doc/image/sentinel-dashboard-nacos-yurun.jpg)
 
 ## 本地启动
 入口启动类： DashboardApplication.java
