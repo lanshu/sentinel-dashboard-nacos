@@ -33,7 +33,9 @@ nacos.username=nacos
 nacos.password=nacos
 ```
 执行打包命令得到jar文件  
-`mvn clean package `
+`mvn clean package `  
+
+`-Dserver.port=port -Dcsp.sentinel.dashboard.server=localhost:port -Dproject.name=sentinel-dashboard`
 
 ## 服务端使用配置
 ```yaml
